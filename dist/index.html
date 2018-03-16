@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> WS TP </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="add-event" method="post">
+
+            <label><span>Nom :</span>
+                <input type="text" name="nom" id="nom">
+            </label>
+            <br>
+            <label><span>Description :</span>
+                <input type="text" name="description" id="description">
+            </label>
+            <br>
+            <label><span>Date :</span>
+                <input type="text" name="date" id="date">
+            </label>
+            <br>
+            <label><span>Lieu :</span>
+                <input type="text" name="lieu" id="lieu">
+            </label>
+            <br>
+            <label><span>Catégories :</span>
+                <select name="list" id="list">
+
+                </select>
+            </label>
+            <br>
+            <input type="submit" id="submit" value="Ajouter">
+
+
+    </form>
+
+    <h3>Liste des événements :</h3>
+    <div id="events">
+
+        
+    </div>
+    
+    <script src="system.js"></script>
+    <script src="system-config.js"></script>
+    <script src="main.js" ></script>
+    <script>
+        System.import("main");
+    </script>
+</body>
+</html>

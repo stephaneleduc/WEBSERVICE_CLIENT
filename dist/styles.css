@@ -1,0 +1,30 @@
+#events {
+
+    display :flex;
+    justify-content: center;
+    flex-wrap : wrap;
+}
+
+.event {
+
+    padding: 5px;
+    margin: 10px;
+    text-align:center;
+    width:200px;
+    height:250px;
+    border:1px solid #000;
+    background-color:#e2e4dc;
+    -webkit-box-shadow:0 0 21px 1px rgba(0,0,0,.75);
+    -moz-box-shadow:0 0 21px 1px rgba(0,0,0,.75);
+    box-shadow:0 0 21px 1px rgba(0,0,0,.75)
+
+}
+
+.edit, .remove {
+
+    cursor: pointer;
+}
+
+label, input {
+    margin: 5px;
+}
